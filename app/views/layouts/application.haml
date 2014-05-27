@@ -1,0 +1,9 @@
+!!!
+%html{:lang => 'en', :class => 'no-js'}
+
+  = render 'layouts/head'
+
+  %body{:'data-controller' => params[:controller], :'data-action' => params[:action], :'data-layout' => 'application', :'data-user-id' => "0"}
+    = yield
+
+  = render 'layouts/javascript'

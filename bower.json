@@ -1,0 +1,11 @@
+{
+  "name": "dmvenl",
+  "homepage": "dmvenl.com",
+  "dependencies": {
+    "modernizr": "~2.8.2",
+    "normalize-css": "~3.0.1"
+  },
+  "authors": [
+    "Hillius Ettinoffe <hillius.ettinoffe@gmail.com>"
+  ]
+}
